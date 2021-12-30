@@ -11,7 +11,7 @@ function App() {
 
       <textarea placeholder="Escreva sua nota aqu"></textarea>
     </form>
-    tdhad
+ 
     <NotesComponent></NotesComponent>
    </main>
   );
