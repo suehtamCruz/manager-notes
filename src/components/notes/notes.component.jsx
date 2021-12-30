@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import CardNoteComponent from "./noteCard/card-note.component";
+import CardNoteComponent from "../noteCard/card-note.component";
+
 export default class NotesComponent extends Component {
   render() {
     return (

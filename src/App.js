@@ -1,7 +1,7 @@
 import './App.css';
 
-import NewNoteComponent from './components/new-note.component';
-import NotesComponent from './components/notes.component';
+import NewNoteComponent from './components/new-note/new-note.component';
+import NotesComponent from './components/notes/notes.component';
 
 function App() {
   return (
