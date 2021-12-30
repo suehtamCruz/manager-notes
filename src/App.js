@@ -1,16 +1,12 @@
-
 import './App.css';
 
+import NewNoteComponent from './components/new-note.component';
 import NotesComponent from './components/notes.component';
 
 function App() {
   return (
    <main>
-      <form>
-      <input type="text" />
-
-      <textarea placeholder="Escreva sua nota aqu"></textarea>
-    </form>
+    <NewNoteComponent></NewNoteComponent>
  
     <NotesComponent></NotesComponent>
    </main>
