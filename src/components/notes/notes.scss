@@ -1,0 +1,9 @@
+.notes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  li {
+    list-style: none;
+  }
+}

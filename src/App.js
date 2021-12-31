@@ -1,11 +1,12 @@
-import './App.css';
+import './App.scss';
+
 
 import NewNoteComponent from './components/new-note/new-note.component';
 import NotesComponent from './components/notes/notes.component';
 
 function App() {
   return (
-   <main>
+   <main id="main-template">
     <NewNoteComponent></NewNoteComponent>
  
     <NotesComponent></NotesComponent>
