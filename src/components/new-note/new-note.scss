@@ -1,8 +1,9 @@
 #new-note {
   display: flex;
   flex-direction: column;
-  min-height: 200px;
   justify-content: space-between;
+  max-height: 250px;
+  min-height: 200px;
   width: 400px;
 
   input {
